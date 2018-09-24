@@ -1,14 +1,11 @@
-# TSLint Config Airbnb
+# Fivestars TSLint
 
-[![NPM version](https://img.shields.io/npm/v/tslint-config-airbnb.svg?style=flat)](https://www.npmjs.com/package/tslint-config-airbnb)
-[![Downloads](http://img.shields.io/npm/dm/tslint-config-airbnb.svg?style=flat)](https://npmjs.org/package/tslint-config-airbnb)
-
-> A [TSLint config](https://palantir.github.io/tslint/usage/configuration/) for [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+> A [TSLint config](https://palantir.github.io/tslint/usage/configuration/) for the [Fivestars TypeScript Style Guide](https://github.com/fivestars/tslint-config-airbnb/GUIDE.md)
 
 ## Installation
 
 ```sh
-npm install tslint-config-airbnb --save-dev
+npm install tslint-config-fivestars --save-dev
 ```
 
 ## Usage
@@ -17,16 +14,9 @@ In `tslint.json`:
 
 ```json
 {
-  "extends": "tslint-config-airbnb"
+  "extends": "tslint-config-fivestars"
 }
 ```
-
-### Rules
-
-* [tslint](https://www.npmjs.com/package/tslint)
-* [tslint-consistent-codestyle](https://www.npmjs.com/package/tslint-consistent-codestyle)
-* [tslint-eslint-rules](https://www.npmjs.com/package/tslint-eslint-rules)
-* [tslint-microsoft-contrib](https://www.npmjs.com/package/tslint-microsoft-contrib)
 
 ## Versioning
 
