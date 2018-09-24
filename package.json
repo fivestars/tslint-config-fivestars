@@ -1,7 +1,7 @@
 {
     "name": "tslint-config-fivestars",
     "description": "Fivestars TSLint config",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": "rob.corell@fivestars.com",
     "dependencies": {
         "tslint-config-airbnb": "5.11.0"
