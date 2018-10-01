@@ -10,6 +10,7 @@ module.exports = {
         'max-line-length': [true, {'ignore-pattern': '.*[`\'"].*[`\'"].*', 'limit': 120}],
         'member-access': false,
         'object-shorthand-properties-first': false,
+        "ordered-imports": [true],
         'quotemark': [true, 'single', 'jsx-double'],
         'semicolon': [true, 'always', 'ignore-bound-class-methods'],
         'ter-indent': [
