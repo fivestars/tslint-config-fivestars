@@ -4,11 +4,11 @@
     "version": "0.3.1",
     "author": "rob.corell@fivestars.com",
     "dependencies": {
-        "tslint-config-airbnb": "5.11.0",
-        "tslint-react": "3.6.0"
+        "tslint-config-airbnb": "5.11.0"
     },
     "homepage": "https://github.com/fivestars/tslint-config-fivestars",
     "keywords": [
+        "airbnb",
         "fivestars",
         "tslint",
         "typescript"

@@ -1,11 +1,13 @@
 module.exports = {
     extends: [
-        'tslint-config-airbnb',
-        'tslint-react'
+        'tslint-config-airbnb'
     ],
     rules: {
+        'align': false,
+        'eofline': true,
         'function-name': null,
-        'max-line-length': [true, 120],
+        'jsx-no-multiline-js': false,
+        'max-line-length': [true, 120, {'ignore-pattern': '.*[`\'"].*[`\'"].*'}],
         'member-access': false,
         'object-shorthand-properties-first': false,
         'quotemark': [true, 'single', 'jsx-double'],
