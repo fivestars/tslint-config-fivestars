@@ -7,7 +7,7 @@ module.exports = {
         'eofline': true,
         'function-name': null,
         'jsx-no-multiline-js': false,
-        'max-line-length': [true, 120, {'ignore-pattern': '.*[`\'"].*[`\'"].*'}],
+        'max-line-length': [true, {'ignore-pattern': '.*[`\'"].*[`\'"].*', 'limit': 120}],
         'member-access': false,
         'object-shorthand-properties-first': false,
         'quotemark': [true, 'single', 'jsx-double'],
