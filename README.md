@@ -11,17 +11,18 @@ This document is based off the [Airbnb JavaScript Style Guide](https://github.co
 ## Exceptions
 
   1. `align: [false]`
-  1. `eofline: true`
-  1. `function-name: null`
-  1. `jsx-no-multiline-js: false`
-  1. `max-line-length: [true, 120]`
-  1. `member-access: false`
-  1. `object-shorthand-properties-first': false`
-  1. `quotemark: [true, 'single', 'jsx-double']`
-  1. `semicolon: [true, 'always', 'ignore-bound-class-methods']`
-  1. `ter-indent: [ true, 4, { 'SwitchCase': 1 }]`
-  1. `trailing-comma: [true, {'multiline': 'never', 'singleline': 'never'}]`
-  1. `variable-name: [true, 'ban-keywords', 'allow-leading-underscore']`
+  2. `brace-style: 'stroustrop'`
+  3. `eofline: true`
+  4. `function-name: null`
+  5. `jsx-no-multiline-js: false`
+  6. `max-line-length: [true, 120]`
+  7. `member-access: false`
+  8. `object-shorthand-properties-first': false`
+  9. `quotemark: [true, 'single', 'jsx-double']`
+  10. `semicolon: [true, 'always', 'ignore-bound-class-methods']`
+  11. `ter-indent: [ true, 4, { 'SwitchCase': 1 }]`
+  12. `trailing-comma: [true, {'multiline': 'never', 'singleline': 'never'}]`
+  13. `variable-name: [true, 'ban-keywords', 'allow-leading-underscore']`
 
 
 ## Installation
@@ -38,16 +39,6 @@ In `tslint.json`:
 {
   "extends": "tslint-config-fivestars"
 }
-```
-
-## Versioning
-
-```
-+----- Major version is synchronize with tslint's major version.
-| +--- Minor version has BREAKING CHANGE and feat.
-| | +- Patch version has patch.
-| | |
-x.x.x
 ```
 
 ## License

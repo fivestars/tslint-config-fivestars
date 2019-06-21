@@ -4,6 +4,7 @@ module.exports = {
     ],
     rules: {
         'align': false,
+        'brace-style': 'stroustrup',
         'eofline': true,
         'function-name': null,
         'jsx-no-multiline-js': false,
